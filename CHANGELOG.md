@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [9.2.0](https://www.github.com/terraform-google-modules/terraform-google-project-factory/compare/v9.1.0...v9.2.0) (2020-10-04)
+
+
+### Features
+
+* Add `enable_shared_vpc_host_project` to create project as shared VPC host project ([#465](https://www.github.com/terraform-google-modules/terraform-google-project-factory/issues/465)) ([3b269be](https://www.github.com/terraform-google-modules/terraform-google-project-factory/commit/3b269bee7bb7aeda53751fb4d3d5b49b8e41fd6a))
+
+
+### Bug Fixes
+
+* Fix Terraform 0.12+ warning on project_services ([#467](https://www.github.com/terraform-google-modules/terraform-google-project-factory/issues/467)) ([e223f77](https://www.github.com/terraform-google-modules/terraform-google-project-factory/commit/e223f77bd8510f5459ed4278f23c5b36f64836ee))
+
 ## [9.1.0](https://www.github.com/terraform-google-modules/terraform-google-project-factory/compare/v9.0.0...v9.1.0) (2020-09-23)
 
 
